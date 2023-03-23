@@ -15,7 +15,7 @@ int Hex_View(unsigned char* Bin, int Size, int Line_Width)
 
 int main(int argc, char *argv[])
 {
-	char* Buffer;
+	unsigned char* Buffer;
 	int FileSize;
 	if(argc == 2)
 	{
